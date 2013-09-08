@@ -1,0 +1,24 @@
+{
+    "name": "zikula/fontawesome-bundle",
+    "type": "symfony-bundle",
+    "description": "FontAwesome Bundle for Zikula",
+    "keywords": ["webfonts", "typography", "graphics", "css", "symfony"],
+    "homepage": "http://zikula.org",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zikula",
+            "homepage": "http://zikula.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "fortawesome/font-awesome": "v3.2.*"
+    },
+    "autoload": {
+        "psr-0": { "Zikula\\Bundle\\FontAwesomeBundle\\": "" }
+    },
+    "config": {
+        "component-dir": "Resources/public"
+    }
+}
